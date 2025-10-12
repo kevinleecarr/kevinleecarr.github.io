@@ -69,27 +69,19 @@
             <!-- A. Control and Input Area (Left) - FOCUS: ACTION/FORM (Clean White Background) -->
             <div class="md:w-[40%] p-6 md:p-8 flex flex-col border-r border-zinc-200 bg-white text-zinc-900 overflow-y-auto">
                 <!-- Headline uses the new Primary Action Blue -->
-                <h2 class="text-3xl font-extrabold mb-4">Simulated Report Analysis</h2>
+                <!-- Headline uses the new Primary Action Blue -->
+                <h2 class="text-2xl font-extrabold mb-4">Conversational Salesforce Code Analyzer reports</h2>
                 
-                <!-- Scarcity Text uses the Muted Danger color -->
-                <p class="text-sm font-semibold text-danger mb-6">
-                    Limited seats available for founding design partners.
-                </p>
-
-                <!-- NEW: Simplified Demo Exclusion Text (Replaces the bulky upload box) -->
-                <!-- Use flex-col and items-center to stack the icon above the text -->
                 <div class="w-full p-3 mb-2 bg-zinc-50 rounded-lg border border-zinc-200 text-zinc-600 text-center text-sm opacity-90 flex flex-col items-center">
                     <!-- Icon is now larger (w-6 h-6) and has a bottom margin (mb-2) -->
                     <svg class="w-6 h-6 mb-2 text-zinc-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
                         <polyline points="14 2 14 8 20 8"></polyline>
                     </svg>
-                    <span class="block">
-                        The live file upload feature is reserved for our Alpha partners. 
-                    </span>
+                    <span class="block">Upload your Salesforce Code Analyzer Report.</span>
+<span class="block pt-0 mt-0">(Reserved for our Alpha partners.)</span>
                 </div>
-
-                <!-- Hidden textarea to store file content for script compatibility/display -->
+                
                 <textarea id="securityInput" class="hidden"></textarea>
 
                 <!-- TRUST Indicator MOVED HERE (Directly follows the file box) -->
