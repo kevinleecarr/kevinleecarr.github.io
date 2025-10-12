@@ -1,2 +1,0 @@
-# kevinleecarr.github.io
-Lintel
